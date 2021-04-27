@@ -17,13 +17,13 @@ Neste projeto prático iremos desenvolver uma solução de e-commerce com a arqu
 - Definição dos domínios
     - <img src=”https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/dominios.jpg" />
 - Definição da arquitetura
-    - <img src=”https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/dominios.jpg" />
+    - https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/arquitetura.jpg
       - checkout Front End realizado com HTML (layout pronto do Spring Boot)
       - checkout Api recebe todos os dados digitados no front end
       - payament Api recebe dados da checkout api e processa o pagamento
       - checkout Api recebe retorno da payament Api e devolve o resultado para usuário no Front End
     - KAFTA trata dados em forma de Streaming Data e utilizando Schema Registry
-      - <img src=”https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/apacheKafta.jpg" />
+      - <img src=”https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/apacheKafka.jpg" />
       - <img src=”https://github.com/rdeconti/Projeto-DIO-Java-E-Commerce/blob/main/Screens-project/schemaRegistry.jpg" />
 - Spring utilizado com as opções: Boot, Cloud stream, Sleuth e Web    
 - Banco de dados Postgres definido para Manter dados das Apis (ver em docker-compose.yml)
